@@ -9,7 +9,7 @@ class FileController {
       path,
     });
 
-    return res.json(req.file);
+    return res.json(file);
   }
 }
 
